@@ -1,0 +1,40 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.swp
+*.bak
+*.orig
+*.rej
+*.pyc
+
+# Virtual Environment
+venv/
+*.virtualenv
+*.virtualenvs
+.env
+.pyenv
+pyrightconfig.json
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Data
+data/
